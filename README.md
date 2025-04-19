@@ -34,8 +34,8 @@ Este proyecto en Laravel consume la API pública de Rick and Morty y permite:
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/rickmorty-api.git
-cd rickmorty-api
+git clone https://github.com/andresrios203/consumo-de-api-laravel.git
+cd consumo-de-api-laravel
 ```
 
 2. Instala dependencias:
@@ -43,14 +43,7 @@ cd rickmorty-api
 ```bash
 composer install
 ```
-
-3. Copia el archivo `.env`:
-
-```bash
-cp .env.example .env
-```
-
-4. Configura la conexión a tu base de datos en el archivo `.env`:
+3. Configura la conexión a tu base de datos en el archivo `.env`:
 
 ```env
 DB_CONNECTION=mysql
@@ -61,13 +54,13 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. Ejecuta las migraciones:
+4. Ejecuta las migraciones:
 
 ```bash
 php artisan migrate
 ```
 
-6. Corre el servidor local:
+5. Corre el servidor local:
 
 ```bash
 php artisan serve
